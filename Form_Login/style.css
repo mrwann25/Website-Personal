@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assets/bg/darkness.jpg);
+  font-family: "Open Sans", sans-serif;
+}
+hr {
+  border-top: 2px solid black;
+  margin-top: 10px;
+}
+h2,
+h3 {
+  margin: 2px;
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 1px 3px rgb(162, 248, 43);
+}
+button {
+  padding-bottom: 10px;
+}
+.container {
+  margin: auto;
+  width: 25%;
+  margin-top: 10%;
+  padding: 12px;
+  background: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 50%;
+  }
+}
+.btn {
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+  background-color: black;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn:hover {
+  color: black;
+  background: greenyellow;
+}
+
+.forminput {
+  text-align: center;
+}
+
+.p {
+  padding-right: 120px;
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p2 {
+  padding-right: 135px;
+  font-size: small;
+  margin-bottom: 5px;
+}
